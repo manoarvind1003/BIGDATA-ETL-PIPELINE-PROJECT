@@ -1,0 +1,11 @@
+============================= test session starts =============================
+platform win32 -- Python 3.10.0, pytest-8.2.2, pluggy-1.6.0
+rootdir: C:\Users\manoa\OneDrive\Desktop\RTFA\food-delivery-pipeline
+plugins: anyio-4.13.0, Faker-25.3.0, cov-5.0.0, mock-3.14.0
+collected 41 items
+
+tests\test_order_generator.py ................                           [ 39%]
+tests\test_producer.py ..                                                [ 43%]
+tests\test_validators.py .......................                         [100%]
+
+============================= 41 passed in 0.24s ==============================

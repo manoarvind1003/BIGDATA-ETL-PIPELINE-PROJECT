@@ -1,0 +1,79 @@
+# =============================================================================
+# .gitignore — Real-Time Food Delivery Analytics Pipeline
+# =============================================================================
+
+# ─── Environment & Secrets ────────────────────────────────────────────────────
+.env
+*.env
+!.env.example
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ─── Virtual Environments ─────────────────────────────────────────────────────
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+logs/
+*.log
+
+# ─── Output ───────────────────────────────────────────────────────────────────
+output/
+*.csv
+
+# ─── Spark Checkpoints ────────────────────────────────────────────────────────
+checkpoints/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# ─── Jupyter Notebooks ────────────────────────────────────────────────────────
+.ipynb_checkpoints
+*.ipynb
+
+# ─── IDE ──────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ─── Docker ───────────────────────────────────────────────────────────────────
+docker/postgres/data/
+
+# ─── Testing ──────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ─── Power BI ─────────────────────────────────────────────────────────────────
+dashboards/*.pbix
